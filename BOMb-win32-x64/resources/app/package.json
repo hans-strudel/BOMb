@@ -1,0 +1,17 @@
+{
+  "name": "BOMb",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.0.2",
+    "xlsjs": "^0.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

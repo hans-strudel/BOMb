@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BOMb</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body>
+		<div id="main">
+		<br />
+			<div id="fInput">
+				<button id="fInputBUT">Input File...</button>
+				<div id="fInfo">
+				</div>
+			</div>
+			<br />
+			<div id="pick">
+				<select id="type">
+					<option value="nul">--SELECT--</option>
+					<option value="a2m">Arena 2 MiSys</option>
+					<option value="m2a">MiSys 2 Arena</option>
+					<option value="bel">Belden</option>
+					<!-- <option value="tec">Tecan</option> -->
+				</select>
+				<input type="checkbox" id="justitems">Just Items</input>
+			</div>
+			<br />
+			<div id="settings" class="disabled">
+				<label for="toplevelAssy">Assy: </label>
+				<input type="text" id="toplevelAssy"></input>
+				<br />
+				<br />
+				<label for="toplevelRev">Rev: </label>
+				<input type="text" id="toplevelRev"></input>
+				<br />
+				<br />
+				<label for="toplevelDesc">Desc: </label>
+				<input type="text" id="toplevelDesc" placeholder="Assy"></input>
+				<br />
+				<br />
+			</div>
+			<div id="fOutput">
+				<button id="fOutputBUT">Output File</button>
+			</div>
+			<br />
+			<div id="error"></div>
+		</div>
+	</body>
+	<script src="index.js"></script>
+</html>

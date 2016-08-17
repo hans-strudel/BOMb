@@ -1,0 +1,52 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+#main{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+#fInput{
+	width: 100%;
+}
+#fInputBUT{
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: #b3ccff;
+}
+#fInputBUT.hover{
+	background-color: green;
+}
+#fOutputBUT{
+	width: 70%;
+	height: 35px;
+	border: none;
+	background-color: #b3ccff;
+}
+#map {
+	width: 90%;
+}
+.map {
+	height: 25px;
+}
+
+.newHeader {
+	float: right;
+}
+#error {
+	color: red;
+}
+#settings {
+	width: 235px;
+	margin: 0 auto;
+}
+#settings > input{
+	float: right;
+	
+}
+.disabled {
+	pointer-events: none;
+	opacity: 0.4;
+}
